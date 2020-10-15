@@ -17,7 +17,7 @@ export default function CompanyItem(props: CompanyItemProps) {
       >
         <div className="flex items-center mb-1">
           <div className="rounded h-12 w-12 flex items-center justify-center">
-            <img className={styles.featuredImage} src={imageUrl} />
+            <img className="w-full h-auto" src={imageUrl} />
           </div>
 
           <div className="flex-1 ml-4">
