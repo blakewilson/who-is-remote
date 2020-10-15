@@ -16,7 +16,7 @@ export default function Footer() {
         className="text-gray-600 underline"
         target="_blank"
       >
-        Made by sundaycode
+        Made by @sundaycode
       </a>
     </footer>
   );
