@@ -49,6 +49,12 @@ const companies: Company[] = [
     sourceUrl: `https://blog.coinbase.com/post-covid-19-coinbase-will-be-a-remote-first-company-cdac6e621df7`,
     date: new Date("2020-05-20"),
   },
+  {
+    name: `Atlassian`,
+    imageUrl: `https://logo.clearbit.com/agile.dev`,
+    sourceUrl: `https://www.businessinsider.in/tech/enterprise/news/atlassian-just-told-employees-they-can-work-from-home-permanently-following-twitter-and-facebook/articleshow/77422739.cms`,
+    date: new Date("2020-08-8"),
+  },
 ];
 
 export default companies.sort((a, b) => (b.date as any) - (a.date as any));
