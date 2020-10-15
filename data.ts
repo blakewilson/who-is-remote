@@ -53,7 +53,7 @@ const companies: Company[] = [
     name: `Atlassian`,
     imageUrl: `https://logo.clearbit.com/agile.dev`,
     sourceUrl: `https://www.businessinsider.in/tech/enterprise/news/atlassian-just-told-employees-they-can-work-from-home-permanently-following-twitter-and-facebook/articleshow/77422739.cms`,
-    date: new Date("2020-08-8"),
+    date: new Date("2020-08-08"),
   },
 ];
 
