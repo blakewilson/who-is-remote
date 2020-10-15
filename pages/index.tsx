@@ -12,6 +12,15 @@ export default function Home() {
       <Head>
         <title>Who is Remote? - Companies with a Permanent WFH Policy</title>
 
+        <meta
+          name="title"
+          content="Who is Remote? - All Companies with a Permanent WFH Policy"
+        />
+        <meta
+          name="description"
+          content="Who is Remote gives you a list of all of the companies who have announced a permanent WFH Policy"
+        />
+
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=UA-81413905-3"
