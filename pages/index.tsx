@@ -8,7 +8,7 @@ import Footer from "../components/footer";
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-2">
+    <div className="container mx-auto px-4">
       <Head>
         <title>Who is Remote? - Companies with a Permanent WFH Policy</title>
       </Head>

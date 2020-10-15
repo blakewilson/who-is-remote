@@ -10,7 +10,11 @@ export default function Header() {
           target="_blank"
           className="bg-white hover:bg-gray-100 text-indigo-600 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
         >
-          Submit a Company
+          <span className="hidden sm:block md:block lg:block">
+            Submit a Company
+          </span>
+
+          <span className="block sm:hidden md:hidden lg:hidden">Submit</span>
         </a>
       </div>
     </header>
