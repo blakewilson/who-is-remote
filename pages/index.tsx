@@ -11,6 +11,22 @@ export default function Home() {
     <div className="container mx-auto px-4">
       <Head>
         <title>Who is Remote? - Companies with a Permanent WFH Policy</title>
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-81413905-3"
+        />
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', 'UA-81413905-3');
+              `,
+          }}
+        />
       </Head>
 
       <Header />
