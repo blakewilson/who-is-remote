@@ -18,7 +18,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Who is Remote gives you a list of all of the companies who have announced a permanent WFH Policy"
+          content="Who is Remote gives you a list of all of the companies who have announced a permanent WFH/Remote Policy."
         />
 
         <script
