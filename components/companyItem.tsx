@@ -19,6 +19,7 @@ export default function CompanyItem(props: CompanyItemProps) {
           <div className="rounded h-12 w-12 flex items-center justify-center">
             <img className={styles.image} src={imageUrl} />
           </div>
+
           <div className="flex-1 ml-4">
             <span className="text-xl font-medium mr-2">{name}</span>
             <span className="font-medium text-gray-600">
