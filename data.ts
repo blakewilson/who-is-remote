@@ -55,6 +55,12 @@ const companies: Company[] = [
     sourceUrl: `https://www.businessinsider.in/tech/enterprise/news/atlassian-just-told-employees-they-can-work-from-home-permanently-following-twitter-and-facebook/articleshow/77422739.cms`,
     date: new Date("2020-08-08"),
   },
+  {
+    name: `Zillow`,
+    imageUrl: `https://logo.clearbit.com/zillow.com`,
+    sourceUrl: `https://www.zillowgroup.com/news/zillow-announces-indefinite-work-from-home-policy/`,
+    date: new Date("2020-07-29"),
+  },
 ];
 
 export default companies.sort((a, b) => (b.date as any) - (a.date as any));
