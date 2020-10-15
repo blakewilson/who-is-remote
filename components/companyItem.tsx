@@ -16,8 +16,8 @@ export default function CompanyItem(props: CompanyItemProps) {
         className="block bg-white shadow rounded px-4 py-4 mb-2"
       >
         <div className="flex items-center mb-1">
-          <div className="bg-gray-500 rounded h-8 w-8">
-            <img className="absolute rounded w-8 h-8" src={imageUrl} />
+          <div className="rounded h-12 w-12 flex items-center justify-center">
+            <img className={styles.image} src={imageUrl} />
           </div>
           <div className="flex-1 ml-4">
             <span className="text-xl font-medium mr-2">{name}</span>
