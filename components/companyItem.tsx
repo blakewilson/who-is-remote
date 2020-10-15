@@ -1,5 +1,5 @@
-import styles from "../styles/CompanyItem.module.css";
 import { Company } from "../interfaces";
+import styles from "../styles/CompanyItem.module.css";
 
 type CompanyItemProps = {
   company: Company;
@@ -17,7 +17,7 @@ export default function CompanyItem(props: CompanyItemProps) {
       >
         <div className="flex items-center mb-1">
           <div className="rounded h-12 w-12 flex items-center justify-center">
-            <img className={styles.image} src={imageUrl} />
+            <img className={styles.featuredImage} src={imageUrl} />
           </div>
 
           <div className="flex-1 ml-4">
