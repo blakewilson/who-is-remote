@@ -6,7 +6,8 @@ export default function Header() {
           Who is Remote?
         </h1>
         <a
-          href=""
+          href="https://twitter.com/sundaycode/status/1316634940344135680"
+          target="_blank"
           className="bg-white hover:bg-gray-100 text-indigo-600 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
         >
           Submit a Company
